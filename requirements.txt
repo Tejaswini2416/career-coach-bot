@@ -1,0 +1,5 @@
+groq
+gradio
+pandas
+pdfplumber
+python-docx
