@@ -6,7 +6,7 @@ import pandas as pd
 from groq import Groq
 
 # 🔐 Paste your NEW Groq API key here
-client = Groq(api_key="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")
+client = Groq(api_key="**********************************************")
 
 # ----------------------------
 # Resume text extraction
@@ -141,3 +141,4 @@ with gr.Blocks() as iface:
         refresh.click(load_dashboard, None, table)
 
 iface.launch()
+
